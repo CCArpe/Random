@@ -1,5 +1,16 @@
-
+package returning;
 import java.util.*;
+
+
+/*
+ *  This is a calculator that finds all roots of a polynomial inside a certain congruence class.
+ *  This can be used to determine if a polynomial is irreducible, but only if the highest degree
+ *  is 2 or 3. If the degree is 4 or above you cannot use the lack of roots to conclude that it is irreducible.
+ *  
+ *  (a congruence class within a ring is only considered a root if the result is 0)
+ * 
+ * 
+ */
 public class RootSolver {
 
 	public static void main(String[] args) {
@@ -59,4 +70,3 @@ public class RootSolver {
 		return result;
 	}
 }
-
